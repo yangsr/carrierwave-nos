@@ -11,7 +11,7 @@ describe CarrierWave::Nos do
   end
 
   def drop_db
-    ActiveRecord::Base.connection.tables.each do |table|
+    ActiveRecord::Base.connection.data_sources.each do |table|
       ActiveRecord::Base.connection.drop_table(table)
     end
   end

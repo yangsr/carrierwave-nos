@@ -30,7 +30,7 @@ module CarrierWave
 
       # 根据配置返回完整的上传文件的访问地址
       def path_to_url(path)
-        "#{@nos_bucket}.#{@nos_endpoint}/#{path}"
+        "https://#{@nos_bucket}.#{@nos_endpoint}/#{path}"
       end
 
       private

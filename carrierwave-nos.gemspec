@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['yangshurui1023@gmail.com']
   spec.summary       = 'NOS support for CarrierWave.'
   spec.description   = 'NOS support for CarrierWave.'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/yangsr/carrierwave-nos'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

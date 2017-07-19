@@ -5,8 +5,8 @@ module CarrierWave
 
       def initialize(uploader, base, path)
         @uploader = uploader
-        @base     = base
-        @path     = URI.encode(path)
+        @base = base
+        @path = URI.encode(path)
       end
 
       def read
